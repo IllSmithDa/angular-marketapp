@@ -11,5 +11,8 @@ export class TopbarComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  currentDepartment = 'All ▼';
+  onDepartmentSelect = (deparment) => {
+    this.currentDepartment = deparment
+  }
 }

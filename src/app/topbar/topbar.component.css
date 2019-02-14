@@ -1,5 +1,6 @@
 .dropbtn {
   margin-top: 1em;
+  height: 3em;
   background-color: #4CAF50;
   color: white;
   padding: 16px;
@@ -10,6 +11,7 @@
 .dropdown {
   position: relative;
   display: inline-block;
+  
 }
 
 
@@ -21,6 +23,7 @@
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  
 }
 /* sets CSS of the Links inside the dropdown */
 .dropdown-content a {
@@ -54,12 +57,17 @@
   margin-left: 2em;
 }
 .inputbar {
-  margin-top: 2em;
-  height: 2em;
-  width: 65%;
+  margin-top: 1.25em;
+  height: 3em;
+  width: 65%; 
+  padding-left: 1em;
 }
-.searchbar {
-  margin-top: 2em;
+.searchicon {
+  margin-top: 1.5em;
+  margin-left: 0.5em;
   height: 2em;
-  width: 7em;
+  width: 2em;
+}
+.searchicon:hover {
+  cursor: pointer;
 }
